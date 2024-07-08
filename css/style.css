@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#Shoppingcontainer {
+    margin-bottom: 20px;
+    border-style: dotted;
+    background-color: aqua;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+input{
+    border: double;
+    size: 100px;
+}
+li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.purchased {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+}
+
+button {
+    margin-left: 10px;
+}
